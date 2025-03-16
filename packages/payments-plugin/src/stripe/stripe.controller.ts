@@ -130,7 +130,7 @@ export class StripeController {
                         orderId,
                         'ArrangingPayment',
                     );
-                }
+                } 
 
                 // If the order is still not in the ArrangingPayment state, log an error
                 if (transitionToStateResult instanceof OrderStateTransitionError) {
